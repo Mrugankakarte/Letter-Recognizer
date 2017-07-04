@@ -15,3 +15,8 @@ The problem was solved using convolutional neural networks. `keras` package was 
 __NOTE:__
 
 I have used small dataset for training. Since almost all the images are trained with black background and white font, the model does not predict well when the case is reversed i.e. with white background and black font. Hence, while feeding test images to the network please ensure that they have black background. Also images taken from digital camera have very high resoultion; my model has input of 28x28 pixels, hence most of the information is lost while reducing the size of image from high resolution to 28x28 pixels.  
+
+Future Scope:
+* Use data augumentation
+* Train on larger dataset including small letters
+* Ensemble Modeling
